@@ -3,32 +3,42 @@
   margin: 0px;
   box-sizing: border-box;
 }
-/* header,
+header,
 main,
 footer {
   width: 100%;
-} */
+  max-width: 1638px;
+  overflow-x: auto;
+}
 .body {
   font-family: ヒラギノ角ゴ ProN;
 }
 .inner {
-  width: 1638px;
+  width: 100%;
+  max-width: 1638px;
   margin: 0 auto;
+}
+body {
+  width: 100%;
+  max-width: 1638px;
 }
 .header-logo {
   background-color: #101010;
-  width: 1638px;
+  width: 100%;
+  max-width: 1638px;
   height: 66px;
   display: flex;
   align-items: center;
 }
 .header-logo img {
-  width: 265px;
+  width: 100%;
+  max-width: 265px;
   height: 44px;
-  margin-left: 1302px;
+  margin-left: 1102px;
 }
 .title-img {
-  width: 1638px;
+  width: 100%;
+  max-width: 1638px;
   height: 921px;
   background-image: url(img/main_img.png);
   background-size: cover;
@@ -39,14 +49,16 @@ footer {
 }
 .main-introduction p:nth-child(1) {
   font-size: 40px;
-  width: 518px;
+  width: 100%;
+  max-width: 518px;
   height: 100px;
   margin-top: 69px;
   margin-left: auto;
   margin-right: auto;
 }
 .main-introduction p:nth-child(2) {
-  width: 678px;
+  width: 100%;
+  max-width: 678px;
   height: 100px;
   font-size: 40px;
   margin-top: 105px;
@@ -59,44 +71,49 @@ footer {
   margin-top: 48px;
 }
 .box {
-  width: 1638px;
+  width: 100%;
+  max-width: 1638px;
   height: 590.14px;
   margin-top: 90px;
   position: relative;
   background-image: url(img/box_img.png);
 }
 .contents1-position img {
-  width: 723.06px;
+  width: 100%;
+  max-width: 723.06px;
   height: 413.3px;
   position: absolute;
-  left: 145px;
+  left: 45px;
   top: 102px;
 }
 .contents1-position p:nth-child(1) {
   color: #ffffff;
   font-size: 30px;
-  width: 539px;
+  width: 100%;
+  max-width: 539px;
   height: 70px;
   position: absolute;
-  left: 897px;
+  left: 797px;
   top: 175px;
   font-weight: bold;
 }
 .contents1-position p:nth-child(2) {
   color: #ffffff;
   font-size: 20px;
-  width: 539px;
+  width: 100%;
+  max-width: 539px;
   height: 156px;
   position: absolute;
-  left: 897px;
+  left: 797px;
   top: 314px;
 }
 .main-contents2 {
   display: flex;
-  margin-left: 183px;
+  margin-left: 83px;
 }
 .main-contents2-explanation p:nth-child(1) {
-  width: 480px;
+  width: 100%;
+  max-width: 480px;
   height: 30px;
   font-size: 30px;
   color: #2b2b2b;
@@ -104,14 +121,16 @@ footer {
   font-weight: bold;
 }
 .main-contents2-explanation p:nth-child(2) {
-  width: 539px;
+  width: 100%;
+  max-width: 539px;
   height: 88px;
   font-size: 20px;
   color: #2b2b2b;
   margin-top: 48px;
 }
 .main-contents2-image img {
-  width: 713.06px;
+  width: 100%;
+  max-width: 713.06px;
   height: 403.3px;
   margin-left: 82px;
   margin-top: 110px;
@@ -123,7 +142,8 @@ footer {
   position: relative;
 }
 .review-image {
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
   height: 91px;
   margin-right: auto;
   margin-left: auto;
@@ -142,13 +162,15 @@ footer {
   top: 16px;
 }
 .review-contents-wrapper {
-  width: 1068.9px;
+  width: 100%;
+  max-width: 1068.9px;
   height: 1075.45px;
-  margin-left: 285px;
+  margin-left: 185px;
   /* margin-top: 27px; */
 }
 .comment {
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
   height: 311px;
   margin-bottom: 45px;
 }
@@ -159,7 +181,8 @@ footer {
   display: none !important;
 }
 .review-image2 {
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
   height: 59px;
   margin-right: auto;
   margin-left: auto;
@@ -168,7 +191,8 @@ footer {
   background-image: url(img/ber_img.png);
 }
 .heading {
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
   height: 25px;
   font-size: 25px;
   position: absolute;
@@ -177,7 +201,8 @@ footer {
   top: 15px;
 }
 .heading_ber {
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
   height: 9px;
   margin-top: 6px;
   background-image: url(img/img_ber2.png);
@@ -199,19 +224,19 @@ footer {
   display: flex;
 }
 .content:nth-child(1) {
-  margin-left: 319px;
+  margin-left: 219px;
   margin-top: 34px;
 }
 .content-right:nth-child(1) {
-  margin-left: 708.77px;
+  margin-left: 608.77px;
   margin-top: -35px;
 }
 .content-left:nth-child(1) {
-  margin-left: 319px;
+  margin-left: 219px;
   margin-top: -25px;
 }
 .content-right2:nth-child(1) {
-  margin-left: 708.77px;
+  margin-left: 608.77px;
   margin-top: -14px;
 }
 .content img {
@@ -246,7 +271,8 @@ footer {
   margin-top: 33.05px;
 }
 .review-fukidasi p {
-  width: 326px;
+  width: 100%;
+  max-width: 326px;
   height: 18px;
   font-size: 18px;
   position: absolute;
@@ -255,13 +281,15 @@ footer {
 }
 .review-fukidasi2 {
   background-image: url(img/review-fukidasi2.png);
-  width: 432.98px;
+  width: 100%;
+  max-width: 432.98px;
   height: 99.45px;
   position: relative;
   margin-top: 26.05px;
 }
 .review-fukidasi2 p {
-  width: 317px;
+  width: 100%;
+  max-width: 317px;
   height: 49px;
   font-size: 18px;
   position: absolute;
@@ -274,13 +302,15 @@ footer {
 }
 .review-fukidasi3 {
   background-image: url(img/review-fukidasi3.png);
-  width: 304.38px;
+  width: 100%;
+  max-width: 304.38px;
   height: 67.77px;
   position: relative;
   margin-top: 44.05px;
 }
 .review-fukidasi3 p {
-  width: 162px;
+  width: 100%;
+  max-width: 162px;
   height: 18px;
   font-size: 18px;
   position: absolute;
@@ -289,13 +319,15 @@ footer {
 }
 .review-fukidasi4 {
   background-image: url(img/review-fukidasi4.png);
-  width: 432.98px;
+  width: 100%;
+  max-width: 432.98px;
   height: 136.45px;
   position: relative;
   margin-top: 2.05px;
 }
 .review-fukidasi4 p {
-  width: 324px;
+  width: 100%;
+  max-width: 324px;
   height: 80px;
   font-size: 18px;
   position: absolute;
@@ -311,7 +343,8 @@ footer {
 }
 
 .application-introduction p:nth-child(1) {
-  width: 678px;
+  width: 100%;
+  max-width: 678px;
   height: 100px;
   font-size: 40px;
   margin-top: 155px;
@@ -325,7 +358,8 @@ footer {
 }
 .bg-application {
   background-image: url(img/bg-application.png);
-  width: 1048px;
+  width: 100%;
+  max-width: 1048px;
   height: 757px;
   margin-top: 62px;
   margin-left: auto;
@@ -336,11 +370,13 @@ footer {
   position: absolute;
   margin-top: 75.32px;
   margin-left: 257px;
-  width: 534.65px;
+  width: 100%;
+  max-width: 534.65px;
   height: 76.68px;
 }
 .border-application {
-  width: 692px;
+  width: 100%;
+  max-width: 692px;
   height: 64px;
   margin-top: 216px;
   margin-left: 178px;
@@ -366,6 +402,7 @@ footer {
   display: flex;
   margin-top: 56.05px;
 }
+
 .bg-application-img img:nth-child(1) {
   width: 108px;
   height: 187px;
