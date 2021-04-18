@@ -34,7 +34,7 @@ body {
   width: 100%;
   max-width: 265px;
   height: 44px;
-  margin-left: 1102px;
+  margin-left: 1132px;
 }
 .title-img {
   width: 100%;
@@ -551,7 +551,8 @@ body {
 }
 .footer {
   height: 73.64px;
-  width: 1638px;
+  width: 100%;
+  max-width: 1638px;
   margin-top: 93.49px;
   background-color: #101010;
 }
@@ -562,18 +563,21 @@ body {
 
 @media (max-width: 760px) {
   body {
-    width: 375px;
+    width: 100%;
+    max-width: 375px;
   }
   .inner {
-    width: 375px;
+    width: 100%;
+    max-width: 375px;
     margin: 0 auto;
-    overflow: hidden;
+    overflow: initial;
   }
   header {
     display: none;
   }
   .title-img {
-    width: 375px;
+    width: 100%;
+    max-width: 375px;
     height: 678px;
     background-image: url(img/R-mainimg.png);
     background-size: cover;
@@ -581,7 +585,8 @@ body {
   }
   .main-introduction p:nth-child(1) {
     font-size: 18px;
-    width: 234px;
+    width: 100%;
+    max-width: 234px;
     height: 43px;
     margin-top: 15px;
     margin-left: auto;
@@ -591,42 +596,48 @@ body {
     display: none;
   }
   .line-img {
-    width: 375px;
+    width: 100%;
+    max-width: 375px;
     height: 66px;
     background-color: #2b2b2b;
     margin: 0 auto;
     margin-top: 10px;
   }
   .line-img img {
-    width: 265px;
+    width: 100%;
+    max-width: 265px;
     height: 44px;
     position: absolute;
     margin-top: 11px;
     margin-left: 55px;
   }
   .box {
-    width: 375px;
+    width: 100%;
+    max-width: 375px;
     height: 502.54px;
     margin-top: 0px;
     position: relative;
     background-image: url(img/box_img.png);
   }
   .contents1-position img {
-    width: 315.04px;
+    width: 100%;
+    max-width: 315.04px;
     height: 180.08px;
     left: 30px;
-    top: 20.35px;
+    top: 50.35px;
   }
   .contents1-position p:nth-child(1) {
     font-size: 18px;
-    width: 323px;
+    width: 100%;
+    max-width: 323px;
     height: 48px;
     left: 26px;
-    top: 238px;
+    top: 258px;
   }
   .contents1-position p:nth-child(2) {
     font-size: 16px;
-    width: 314px;
+    width: 100%;
+    max-width: 314px;
     height: 131px;
     left: 31px;
     top: 316px;
@@ -644,19 +655,22 @@ body {
     margin: 0 auto;
   }
   .main-contents2-explanation p:nth-child(1) {
-    width: 288px;
+    width: 100%;
+    max-width: 288px;
     height: 18px;
     font-size: 18px;
     margin-top: 28px;
   }
   .main-contents2-explanation p:nth-child(2) {
-    width: 302px;
+    width: 100%;
+    max-width: 302px;
     height: 124px;
     font-size: 16px;
     margin-top: 28px;
   }
   .main-contents2-image img {
-    width: 279.4px;
+    width: 100%;
+    max-width: 279.4px;
     height: 159.71px;
     margin-left: 48px;
     margin-top: 61.36px;
@@ -668,7 +682,8 @@ body {
     position: relative;
   }
   .review-image {
-    width: 374px;
+    width: 100%;
+    max-width: 374px;
     height: 52px;
     margin-right: auto;
     margin-left: auto;
@@ -679,7 +694,8 @@ body {
   }
   .voice p {
     color: #ffffff;
-    width: 90px;
+    width: 100%;
+    max-width: 90px;
     height: 18px;
     font-size: 18px;
     position: absolute;
@@ -687,13 +703,15 @@ body {
     top: 10px;
   }
   .review-contents-wrapper {
-    width: 392.23px;
+    width: 100%;
+    max-width: 392.23px;
     height: 1288.67px;
     margin-left: initial;
     margin-top: 22.98px;
   }
   .comment img {
-    width: 392.23px;
+    width: 100%;
+    max-width: 392.23px;
     height: 1288.67px;
     margin-left: -10px;
     /* margin-bottom: 20px; */
@@ -706,7 +724,8 @@ body {
   }
 
   .review-image2 {
-    width: 374px;
+    width: 100%;
+    max-width: 374px;
     height: 39px;
     margin-right: auto;
     margin-left: auto;
@@ -715,7 +734,8 @@ body {
     background-image: url(img/ber_img.png);
   }
   .heading {
-    width: 264px;
+    width: 100%;
+    max-width: 264px;
     height: 18px;
     font-size: 18px;
     position: absolute;
@@ -724,7 +744,8 @@ body {
     top: 6px;
   }
   .heading_ber {
-    width: 374px;
+    width: 100%;
+    max-width: 374px;
     height: 7px;
     margin-top: 5px;
     background-image: url(img/img_ber2.png);
@@ -786,13 +807,15 @@ body {
   }
   .review-fukidasi {
     background-image: url(img/r-fukidashi.png);
-    width: 259.61px;
+    width: 100%;
+    max-width: 259.61px;
     height: 32.64px;
     position: relative;
     margin-top: 11.04px;
   }
   .review-fukidasi p {
-    width: 230px;
+    width: 100%;
+    max-width: 230px;
     height: 12px;
     font-size: 12px;
     position: absolute;
@@ -801,13 +824,15 @@ body {
   }
   .review-fukidasi2 {
     background-image: url(img/r-fukidashi2.png);
-    width: 252.31px;
+    width: 100%;
+    max-width: 252.31px;
     height: 58.43px;
     position: relative;
     margin-top: initial;
   }
   .review-fukidasi2 p {
-    width: 212px;
+    width: 100%;
+    max-width: 212px;
     height: 32px;
     font-size: 12px;
     position: absolute;
@@ -820,13 +845,15 @@ body {
   }
   .review-fukidasi3 {
     background-image: url(img/r-fukidashi3.png);
-    width: 158.61px;
+    width: 100%;
+    max-width: 158.61px;
     height: 32.64px;
     position: relative;
     margin-top: 16.04px;
   }
   .review-fukidasi3 p {
-    width: 108px;
+    width: 100%;
+    max-width: 108px;
     height: 12px;
     font-size: 12px;
     position: absolute;
@@ -835,13 +862,15 @@ body {
   }
   .review-fukidasi4 {
     background-image: url(img/r-fukidashi4.png);
-    width: 252.31px;
+    width: 100%;
+    max-width: 252.31px;
     height: 76.43px;
     position: relative;
     margin-top: initial;
   }
   .review-fukidasi4 p {
-    width: 216px;
+    width: 100%;
+    max-width: 216px;
     height: 52px;
     font-size: 12px;
     position: absolute;
@@ -852,12 +881,16 @@ body {
   .content-right2 img {
     margin-left: initial;
   }
+  /* .bg-application-img {
+    width: 80%;
+  } */
   .application-introduction {
     display: none;
   }
   .bg-application {
     background-image: url(img/r-outline.png);
-    width: 387.77px;
+    width: 100%;
+    max-width: 387.77px;
     height: 986.02px;
     margin-top: 38.18px;
     display: flex;
@@ -866,14 +899,16 @@ body {
   .heading-application {
     margin-top: 33px;
     margin-left: 46.73px;
-    width: 282.27px;
+    width: 100%;
+    max-width: 282.27px;
     height: 40.49px;
   }
   .border-application {
     display: none;
   }
   .application-text {
-    width: 296px;
+    width: 100%;
+    max-width: 296px;
     height: 60px;
     margin-top: 96.82px;
     margin-left: auto;
@@ -883,10 +918,19 @@ body {
   .application-text P {
     font-size: 14px;
   }
-
+  .sp-image {
+    width: 100%;
+  }
+  .sp-image2 {
+    width: 100%;
+  }
+  .sp-image3 {
+    width: 100%;
+  }
   .sp-image p {
     margin-left: initial;
-    width: 141px;
+    width: 100%;
+    max-width: 141px;
     height: 35px;
     font-size: 20px;
     margin-top: 49px;
@@ -894,7 +938,8 @@ body {
   }
   .sp-image2 p {
     margin-left: initial;
-    width: 133px;
+    width: 100%;
+    max-width: 133px;
     height: 35px;
     font-size: 20px;
     margin-top: 49px;
@@ -902,37 +947,43 @@ body {
   }
   .sp-image3 p {
     margin-left: initial;
-    width: 145px;
+    width: 100%;
+    max-width: 145px;
     height: 35px;
     font-size: 20px;
     margin-top: 63px;
     margin-left: 115px;
   }
   .sp-image img {
-    width: 100px;
+    width: 100%;
+    max-width: 100px;
     height: 174px;
     margin-left: 138px;
     margin-top: 13px;
   }
   .sp-image2 img {
-    width: 174.31px;
+    width: 100%;
+    max-width: 174.31px;
     height: 141.01px;
     margin-left: 100px;
     margin-top: 11px;
   }
   .sp-image3 img {
-    width: 162.96px;
+    width: 100%;
+    max-width: 162.96px;
     height: 125.06px;
     margin-left: 106px;
     margin-top: 11.35px;
   }
   .number {
-    width: 36px;
+    width: 100%;
+    max-width: 36px;
     height: 35px;
     font-size: 25px;
   }
   .pdf h1 {
-    width: 266px;
+    width: 100%;
+    max-width: 266px;
     height: 54px;
     font-size: 20px;
     font-weight: bold;
@@ -941,13 +992,15 @@ body {
     margin-left: 55px;
   }
   .pdf img {
-    width: 233px;
+    width: 100%;
+    max-width: 233px;
     height: 124px;
     margin-left: 71px;
     margin-top: 24px;
   }
   .pdf a {
-    width: 142px;
+    width: 100%;
+    max-width: 142px;
     height: 10px;
     font-size: 10px;
     color: #4ac5f9;
@@ -957,7 +1010,8 @@ body {
   }
   .news {
     background-image: url(img/r-outline2.png);
-    width: 346px;
+    width: 100%;
+    max-width: 346px;
     height: 490px;
     margin-top: 48px;
     margin-left: auto;
@@ -970,12 +1024,14 @@ body {
     margin-left: 83px;
   }
   .heading-news h2 {
-    width: 180px;
+    width: 100%;
+    max-width: 180px;
     height: 20px;
     font-size: 20px;
   }
   .heading-news img {
-    width: 202.1px;
+    width: 100%;
+    max-width: 202.1px;
     margin-top: 12.88px;
     margin-left: initial;
   }
@@ -983,7 +1039,8 @@ body {
     margin-top: 105px;
     margin-left: 24px;
     margin-bottom: initial;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 339px;
     font-size: 14px;
   }
@@ -999,7 +1056,8 @@ body {
 
   .announce {
     background-image: url(img/r-blackbox.png);
-    width: 346px;
+    width: 100%;
+    max-width: 346px;
     height: 346px;
     margin-top: 38px;
     margin-left: auto;
@@ -1007,7 +1065,8 @@ body {
     position: relative;
   }
   .announce h2 {
-    width: 168px;
+    width: 100%;
+    max-width: 168px;
     height: 28px;
     font-size: 28px;
     position: absolute;
@@ -1016,14 +1075,16 @@ body {
     margin-left: 84px;
   }
   .announce img {
-    width: 339px;
+    width: 100%;
+    max-width: 339px;
     height: 294px;
     position: absolute;
     margin-top: 48px;
     margin-left: 4px;
   }
   .announce-text {
-    width: 285.48px;
+    width: 100%;
+    max-width: 285.48px;
     height: 89.26px;
     position: absolute;
     margin-top: 69px;
@@ -1033,13 +1094,15 @@ body {
   }
   .announce-text p:nth-child(1) {
     font-size: 15px;
-    width: 285px;
+    width: 100%;
+    max-width: 285px;
     height: 15px;
     margin: 0 auto;
   }
   .announce-text p:nth-child(2) {
     font-size: 28px;
-    width: 285.48px;
+    width: 100%;
+    max-width: 285.48px;
     height: 89.26px;
     margin-top: initial;
   }
@@ -1047,12 +1110,14 @@ body {
     font-size: 35px;
     background-color: black;
     color: #ffffff;
-    width: 285.48px;
+    width: 100%;
+    max-width: 285.48px;
     height: 51.35px;
   }
   .last-child p {
     position: absolute;
-    width: 308px;
+    width: 100%;
+    max-width: 308px;
     height: 112px;
     margin-top: 211px;
     margin-left: 24px;
@@ -1067,6 +1132,7 @@ body {
   }
   .footer {
     height: 20.12px;
+    width: 100%;
     width: 375px;
     margin-top: 26.07px;
     background-color: #101010;
